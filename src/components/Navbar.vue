@@ -2,8 +2,8 @@
      <nav>
         <div class="navbar">
           <a href="#app">About Me</a>
-        <a href="#project-section">Projects</a>
-          <a href="#achievements">Achievements</a>
+        <a href="#project-section">My Projects</a>
+          <a href="#achievements">My Achievements</a>
              <a href="#contact">Contact Me</a>
         </div>
       </nav>

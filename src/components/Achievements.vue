@@ -1,19 +1,6 @@
 <template>
-    
-    <!-- <section class="achievements">
-    <h2>Achievements</h2>
-    <div class="achievement-list" :style="'border-color: #f73978;border-style:groove;padding-top:40px;padding-bottom:40px'">
-      <div class="achievement" v-for="achievement in achievements" :key="achievement.id">
-    
-        <div class="achievement-details">
-          <h3>{{ achievement.title }}</h3>
-          <p>{{ achievement.description }}</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
   <section id="achievements">
-    <h2>Achievements</h2>
+    <h2>My Achievements</h2>
     <div class="achievement-scroll-container" :style="'border-color: #f73978;border-style:groove;padding-top:40px;padding-bottom:40px'">
       <div class="achievement-list" >
         <div class="achievement" v-for="achievement in achievements" :key="achievement.id">
@@ -74,39 +61,14 @@
   </script>
   
   <style scoped>
-  /* .project-section h2 {
-    margin-top: 40px;
-    position: relative;
-    overflow: hidden;
-    color: white;
-  }
-  
-  .scroll-container {
-        
-}
-.projects::-webkit-scrollbar { width: 0 !important }
-  .projects {
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    overflow-x: scroll;
-    margin: 10pxs;
-    border: 2px solid;
-    border-radius: 8px;
-  }
-  
-  .project h2,p {
-    color: white;
-    width: 300px;
-  }
-  
- */
+ .achievement-scroll-container::-webkit-scrollbar { width: 0 !important }
   h3,p, h2{
     color: white;
   }
   #achievements {
     position: relative;
   padding: 20px;
+  margin-top: 80px;
 }
 
 .achievement-scroll-container {

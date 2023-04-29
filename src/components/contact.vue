@@ -1,7 +1,7 @@
 <template>
     <div >
         <section id="contact">
-    <h2 style="color: white;">Contact</h2>
+    <h2 style="color: white;">Contact Me</h2>
     <div class="contact-box" :style="'border-color: #f73978;border-style:groove;padding-top:40px;padding-bottom:40px'">
       <div class="contact-details">
         <p>WhatsApp: <a :href="'https://wa.me/' + whatsappNumber">+91 {{ whatsappNumber }}</a></p>
@@ -25,6 +25,7 @@ export default {
 #contact {
   padding: 20px;
   border-color: #f73978;
+  margin-top: 80px;
 }
 
 .contact-box {
