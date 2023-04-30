@@ -4,7 +4,6 @@
  <projects></projects>
  <Achievements/>
  <contactVue/>
- <!-- <router-view></router-view> -->
  <div style="margin: 80px;font-size: large;font-weight: bolder; ">: <a :href="linkUrl">👉{{ text }}</a></div>
 </template>
 
@@ -38,8 +37,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* color: black; */
-  /* background-color: black; */
+
   
 }
 </style>

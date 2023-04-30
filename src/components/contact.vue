@@ -29,7 +29,7 @@ export default {
 }
 
 .contact-box {
-  /* background-color: #f73978; */
+
   padding: 20px;
 }
 

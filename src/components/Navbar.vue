@@ -22,7 +22,6 @@
   
   <style scoped>
   
- /* Navbar styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,11 +43,8 @@
   color: white;
   font-weight: bold;
 }
-
-/* Media queries for responsive design */
 @media (max-width: 768px) {
-  /* Mobile styles */
-
+  
   .navbar {
     flex-direction: column;
   }
