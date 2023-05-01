@@ -5,7 +5,7 @@
     <div class="about-me-content">
       <div class="about-me-info">
         <h2>Mohammed Taher R</h2>
-        <p>I am a skilled developer with expertise in Android, Figma, Spring Boot, and Vue.js. I create engaging applications and designs, delivering high-quality solutions that exceed expectations.</p>
+        <p>A developer proficient in Figma and Android app development, combining design expertise with technical skills to create visually appealing and functional mobile applications.</p>
       </div>
       <div class="about-me-image">
         <img src="../assets/Myphotocropped.jpg">

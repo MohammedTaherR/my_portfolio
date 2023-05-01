@@ -25,7 +25,7 @@ export default {
   },data(){
     return{
       text:"Check out my Resume",
-      linkUrl:"https://drive.google.com/file/d/1huZUATS73y_R9-vyNJP0UHbaAqcBeBe4/view?usp=sharing"
+      linkUrl:"https://drive.google.com/file/d/1-mHytYvtLZs1Y7BkMuW1beBMR-aqakmB/view?usp=share_link"
     }
   }
 }
